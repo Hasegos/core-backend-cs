@@ -33,7 +33,7 @@ ERD는 **객체-관계-다이어그램**으로, 데이터베이스의 구조를 
 
 * **약한 엔티티 (Weak Entity)**: 독립적으로 존재할 수 없고 상위 엔티티에 의존합니다. (예: 노선관리 -> 노선별 정류장 순서)
 
-<img src="https://github.com/user-attachments/assets/8b382539-563f-4516-993e-84982493d1ba" />
+<img width=700 src="https://github.com/user-attachments/assets/8b382539-563f-4516-993e-84982493d1ba" />
 
 [목차로 돌아가기](#목차)
 
@@ -60,16 +60,16 @@ ERD는 **객체-관계-다이어그램**으로, 데이터베이스의 구조를 
 
 1. **1:1 (One-to-One)**: 양쪽 데이터가 단 하나씩만 대응됩니다. (예: 사용자 - 프로필 정보)
 
-<img src="https://github.com/user-attachments/assets/a3fefa2a-cd1c-4459-aa66-139598680a93" />
+<img width=400 src="https://github.com/user-attachments/assets/a3fefa2a-cd1c-4459-aa66-139598680a93" />
 
 2. **1:N (One-to-Many)**: 한쪽의 데이터가 반대쪽 데이터 여러 개와 대응됩니다. (예: 부서 - 사원들)
 
-<img src="https://github.com/user-attachments/assets/7485f849-46b7-47a5-9a36-a9455f8b99e7" />
+<img width=400 src="https://github.com/user-attachments/assets/7485f849-46b7-47a5-9a36-a9455f8b99e7" />
 
 3. **N:M (Many-to-Many)**: 양쪽 모두 여러 데이터와 대응됩니다. (예: 학생 - 수업)
     * *주의: 실제 DB 구현 시 N:M은 중간에 '연결 테이블'을 두어 1:N 관계로 풀어내야 합니다.*
 
-<img src="https://github.com/user-attachments/assets/e2294975-af33-4fdd-8766-94b2ef75bbc7" />
+<img width=400 src="https://github.com/user-attachments/assets/e2294975-af33-4fdd-8766-94b2ef75bbc7" />
 
 [목차로 돌아가기](#목차)
 
