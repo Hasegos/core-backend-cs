@@ -1,6 +1,6 @@
 # CQRS (Command Query Responsibility Segregation)
 
-<strong>CQRS(명령 쿼리 책임 분리)<strong>는 데이터 저장소에 대한 **읽기(Query) 및 쓰기(Command) 작업을 별도의 모델로 분리**하는 디자인 패턴입니다.<br>
+<strong>CQRS(명령 쿼리 책임 분리)</strong>는 데이터 저장소에 대한 **읽기(Query) 및 쓰기(Command) 작업을 별도의 모델로 분리**하는 디자인 패턴입니다.<br>
 이를 통해 각 모델을 독립적으로 최적화하여 성능, 확장성 및 보안을 극대화할 수 있습니다.
 
 [개념 모음으로 돌아가기](../README.md)
@@ -31,7 +31,8 @@
 
 CQRS는 모든 작업을 크게 두 가지 책임으로 나눕니다.
 
-1.  **명령 (Command)**: 시스템의 상태를 변경하는 작업 (Create, Update, Delete). 비즈니스 의도를 담아야 합니다 (예: `ReservationStatus = 'Booked'` 대신 `MakeReservation`).
+1.  **명령 (Command)**: 시스템의 상태를 변경하는 작업 (Create, Update, Delete). 비즈니스 의도를 담아야 합니다<br>
+(예: `ReservationStatus = 'Booked'` 대신 `MakeReservation`).
 
 2.  **쿼리 (Query)**: 시스템의 상태를 조회하는 작업 (Read). 데이터를 변경하지 않으며, 결과로 **DTO**를 반환합니다.
 
@@ -53,7 +54,7 @@ CQRS는 모든 작업을 크게 두 가지 책임으로 나눕니다.
 
 읽기와 쓰기에 최적화된 서로 다른 DB 기술을 사용합니다. (예: 쓰기는 RDBMS, 읽기는 NoSQL)
 
-* **동기화**: 쓰기 저장소에서 변경이 발생하면 **이벤트(Event)**를 게시하여 읽기 저장소를 업데이트합니다.
+* **동기화**: 쓰기 저장소에서 변경이 발생하면 <strong>이벤트(Event)</strong>를 게시하여 읽기 저장소를 업데이트합니다.
 
 * **최종 일관성(Eventual Consistency)**: 두 DB가 실시간으로 완벽히 일치하지 않을 수 있으나, 시간이 지나면 결국 일치하게 됩니다.
 
