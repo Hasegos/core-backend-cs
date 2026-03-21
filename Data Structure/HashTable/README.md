@@ -39,7 +39,7 @@
 
 + **특징:** 테이블의 크기보다 더 많은 데이터를 저장할 수 있으며, 삭제 연산이 비교적 간단합니다.
 
-+ **구현 사례:** [seperateChaining.java](./seperateChaining.java)
++ **구현 사례:** [SeparateChaining.java](./SeparateChaining.java)
 
 + **활용 사례:** [HashTable.java](./HashTable.java)
 
