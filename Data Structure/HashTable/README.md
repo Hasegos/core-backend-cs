@@ -1,4 +1,4 @@
-# 자료구조: Hash Table (해시 테이블)
+# Hash Table (해시 테이블)
 
 데이터를 효율적으로 저장하고 검색하기 위해 **Key-Value** 쌍을 활용하는 자료구조인 **Hash Table**에 대해 학습하고 구현하였습니다.
 
@@ -9,7 +9,7 @@
 + [개요 (Introduction)](#개요-introduction)
 + [주요 개념 (Key Concepts)](#주요-개념-key-concepts)
 + [해시 충돌 해결 전략 (Collision Handling)](#해시-충돌-해결-전략-collision-handling)
-+ [Java `Hashtable` 특징](#java-hashtable-특징)
++ [Java Hashtable 특징](#java-hashtable-특징)
 + [시간 복잡도 (Time Complexity)](#시간-복잡도-time-complexity)
 
 ## 개요 (Introduction)
@@ -66,6 +66,6 @@
 | **Insert (삽입)** | $O(1)$ | $O(n)$ |
 | **Delete (삭제)** | $O(1)$ | $O(n)$ |
 
-> **Note:** 최악의 경우($O(n)$)는 모든 데이터가 하나의 버킷으로 몰려 Linked List가 길어지는 상황(심한 충돌)을 의미합니다.
+> **Note:** 최악의 경우 $O(n)$ 는 모든 데이터가 하나의 버킷으로 몰려 Linked List가 길어지는 상황(심한 충돌)을 의미합니다.
 
 [목차로 돌아가기](#목차)
