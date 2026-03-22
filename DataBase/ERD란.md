@@ -33,7 +33,7 @@ ERD는 **객체-관계-다이어그램**으로, 데이터베이스의 구조를 
 
 * **약한 엔티티 (Weak Entity)**: 독립적으로 존재할 수 없고 상위 엔티티에 의존합니다. (예: 노선관리 -> 노선별 정류장 순서)
 
-<img width=700 src="https://github.com/user-attachments/assets/8b382539-563f-4516-993e-84982493d1ba" />
+<img width=700 src="https://github.com/user-attachments/assets/8b382539-563f-4516-993e-84982493d1ba" /><br>
 
 [목차로 돌아가기](#목차)
 
