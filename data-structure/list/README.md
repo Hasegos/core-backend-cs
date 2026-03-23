@@ -1,6 +1,6 @@
 # 자료 구조 (Data Structure)
 
-[개념 모음으로 돌아가기](../README.md)
+[자료구조로 돌아가기](../README.md)
 
 ## 목차
 
