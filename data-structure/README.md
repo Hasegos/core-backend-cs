@@ -11,6 +11,8 @@
 
 데이터가 일렬로 나열된 형태의 자료구조입니다.
 
++ [List (리스트)](./list/README.md) - Array vs Linked List의 구조적 차이 및 성능 분석 (Random Access vs Sequential Access)
+
 + [**Stack (스택)**](./stack/README.md) - LIFO(후입선출) 원리 및 함수 콜 스택 이해
 
 + [**Queue (큐)**](./queue/README.md) - FIFO(선입선출) 원리 및 프로세스 대기열 이해
@@ -47,6 +49,7 @@
 
 | 자료구조 | 상세 설명 링크 | 핵심 키워드 |
 | :--- | :--- | :--- |
+| **List** | [이동하기](./list/README.md) | `Array`, `Linked List`, `Random Access` |
 | **Hash Table** | [이동하기](./hashTable/README.md) | `HashCode`, `Collision`, `Chaining` |
 | **Queue** | [이동하기](./queue/README.md) | `FIFO`, `Front/Rear`, `Enqueue/Dequeue` |
 | **Stack** | [이동하기](./stack/README.md) | `LIFO`, `Top`, `Push/Pop` |
