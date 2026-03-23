@@ -11,7 +11,7 @@
 
 데이터가 일렬로 나열된 형태의 자료구조입니다.
 
-+ [List (리스트)](./list/README.md) - Array vs Linked List의 구조적 차이 및 성능 분석 (Random Access vs Sequential Access)
++ [**List (리스트)**](./list/README.md) - Array vs Linked List의 구조적 차이 및 성능 분석 (Random Access vs Sequential Access)
 
 + [**Stack (스택)**](./stack/README.md) - LIFO(후입선출) 원리 및 함수 콜 스택 이해
 
