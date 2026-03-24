@@ -1,7 +1,7 @@
 # 🚀 Root to CS & Backend
 
 백엔드 개발의 근간이 되는 **Computer Science 지식**과 **자료구조/알고리즘**을 체계적으로 기록하는 통합 저장소입니다.<br>
-단순히 개념을 암기하는 것에 그치지 않고, **Java를 이용한 직접 구현**을 통해 **데이터의 흐름과 내부 동작 원리**를 깊이 있게 파고듭니다.
+모든 기술 문서를 한눈에 탐색할 수 있도록 구성하였습니다.
 
 ## 👨‍💻 Information
 * **Author:** [최수호 (Hasegos)](https://github.com/Hasegos)
@@ -26,7 +26,8 @@
 | **CS 기초** | 컴퓨터 구조, 운영체제, Linux, 네트워크, 데이터베이스 | [바로가기](#-computer-science) |
 | **자료구조** | Stack, Queue, Hash Table, Tree, Trie | [바로가기](#-data-structure) |
 | **알고리즘** | Sorting, Searching, DP, Graph | [바로가기](#-algorithm) |
-| **설계 & 언어** | Design Pattern, Java, Spring Framework | [바로가기](#-software-design--language) |
+| **설계 & 언어** | Design Pattern, Java, Spring Framework | [바로가기](#️-software-design--language) |
+| 기타 & 도구 | Git/GitHub, HTML/CSS, HTTP | [바로가기](#️-etc--tools) |
 
 ## 💻 Computer Science
 
@@ -49,48 +50,38 @@
 ### 🔧 Operating System & Linux
 
 + **OS 이론** 
-    + [컨텍스트 스위칭 원리](#) 
-    + [데드락(Deadlock) 방지 전략](#) 
-    + [프로세스 & 스레드 동기화](#)
+    + [운영체제 기초 (OS Basic)](./operating%20system/OS%20Basic.md) 
 
 + **Linux** 
-    + [Linux 커널 구조](#) 
-    + [기본 쉘 명령어 정리](#)
-    + [사용자 및 권한 관리](#)
+
 
 ### 🌐 Network & Database
 
 + **Network**
-    + [OSI 7계층]()
-    + [TCP/IP 4계층]()
-    + [3-way & 4-way Handshake]()
-    + [TCP vs UDP]()
-    + [HTTP & HTTPS]()
-    + [암호화(개인키 vs 공개키)]()
+    + [OSI 7계층](./network/OSI%207계층.md)
+    + [TCP/IP 4계층](./network/TCP%20IP%204계층.md)
+    + [3-way & 4-way Handshake](./network/TCP%20Handshake.md)
+    + [TCP vs UDP](./network/TCP%20vs%20UDP.md)
+    + [HTTP & HTTPS](./network/HTTP%20HTTPS%20프로토콜.md)
+    + [암호화(개인키 vs 공개키)](./network/개인키%20vs%20공개키.md)
+    + [네트워크 기초 및 성능 지표](./network/Network%20Basic.md)
+    + [계층별 네트워크 기기](./network/Network%20Devices.md)
+    + [DNS](./network/DNS.md)
+    + **[Network 전체 보기](./network/README.md)**
 
 + **Database** 
-    + [ERD 개념 및 작성법]()
-    + [트랜잭션 격리 수준]() 
-    + [Index 원리]()
+    + [ERD란](./database/ERD란.md)
 
 ## 📊 Data Structure
 
-> 표준 라이브러리 활용과 직접 구현을 병행하며, 각 자료구조의 내부 동작 원리를 깊이 있게 학습합니다. [[전체보기]](./data-structure/README.md)
-
-+ HashTable
-    + [HashTalbe]()
-    + [SeparateChaining]()
-
-+ Linear Structure
-    + [Stack]() / [Queue]()
-
-+ Non-Linear Structure
-    + [Trie]()
-    + [Tree]()
++ [HashTable](./data-structure/hashTable/README.md)
++ [Stack](./data-structure/stack/README.md)
++ [Queue](./data-structure/queue/README.md)
++ [Trie](./data-structure/trie/README.md)
++ [Tree](./data-structure/tree/README.md)
++ [List](./data-structure/list/README.md)
 
 ## ⚡ Algorithm
-
-> 효율적인 문제 해결을 위한 다양한 알고리즘의 원리를 이해하고, 시간 복잡도($O$)를 고려한 최적의 구현 방식을 학습합니다.
 
 + **Sorting (정렬)**
     + **기본 정렬:** [Bubble]() / [Selection]() / [Insertion]()
@@ -114,9 +105,20 @@
 
 ### ☕ Framework & Language
 
-+ [Spring 개념]()
-+ [Spring 큰 흐름]()
-+ [다형성의 중요성]()
++ [Spring 개념](./spring/스프링%20개념.md)
++ [Spring 큰 흐름](./spring/스프링%20큰%20흐름.md)
++ [다형성의 중요성](./spring/스프링%20큰%20흐름.md)
+
+## 🛠️ ETC & Tools
+
+### 🐙 Git & GitHub
+
++ [Github 개념](./github/Github%20개념%20및%20정리.md)
+
+### 🌐 Web & HTML
+
++ [HTML이란](./html/HTML이란.md)
++ [HTML 문서구조]()
 
 ---
 <p align="center">
