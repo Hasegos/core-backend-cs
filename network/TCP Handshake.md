@@ -2,13 +2,12 @@
 
 TCP/IP 프로토콜을 사용하는 기기 간에 논리적인 연결을 설정하고 해제하기 위한 절차를 정리한 문서입니다.
 
-[네트워크로 돌아가기](../README.md)
+[네트워크로 돌아가기](./README.md)
 
 ## 목차
 
 + [3-way Handshake (연결 설정)](#3-way-handshake-연결-설정)
 + [4-way Handshake (연결 해제)](#4-way-handshake-연결-해제)
-
 
 ## 3-way Handshake (연결 설정)
 
