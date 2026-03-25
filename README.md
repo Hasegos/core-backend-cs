@@ -1,4 +1,4 @@
-# 🚀 Root to CS & Backend
+# 📌 Root to CS & Backend
 
 백엔드 개발의 근간이 되는 **Computer Science 지식**과 **자료구조/알고리즘**을 체계적으로 기록하는 통합 저장소입니다.<br>
 모든 기술 문서를 한눈에 탐색할 수 있도록 구성하였습니다.
@@ -27,30 +27,24 @@
 | **자료구조** | Stack, Queue, Hash Table, Tree, Trie | [바로가기](#-data-structure) |
 | **알고리즘** | Sorting, Searching, DP, Graph | [바로가기](#-algorithm) |
 | **설계 & 언어** | Design Pattern, Java, Spring Framework | [바로가기](#️-software-design--language) |
-| 기타 & 도구 | Git/GitHub, HTML/CSS, HTTP | [바로가기](#️-etc--tools) |
+| **기타 & 도구** | Git/GitHub, HTML/CSS, HTTP | [바로가기](#️-etc--tools) |
 
 ## 💻 Computer Science
 
 ### 🖥️ Computer Architecture
-+ **하드웨어 기초** 
-    + [시스템 구성 요소]()
-    + [CPU 작동 원리]()
-    + [CPU 성능 향상 기법]() 
-    + [ARM 프로세서]()
 
-+ **메모리 시스템** 
-    + [메모리 계층구조]()
-    + [캐시 메모리(Cache Memory)]() 
-    + [메모리 접근 지역성]()
-
-+ **데이터 표현** 
-    + [고정 소수점 & 부동 소수점]()
-    + [패리티 비트 & 해밍 코드]()
++ [컴퓨터의 구성](./computer-science/컴퓨터의%20구성.md)
++ [캐시 메모리](./computer-science/캐시%20메모리.md)
++ [CPU 성능 향상 기법](./computer-science/CPU%20성능%20향상%20기법.md)
++ [중앙처리장치 (CPU) 작동 원리](./computer-science/중앙처리장치%20(CPU)%20작동%20원리.md)
 
 ### 🔧 Operating System & Linux
 
-+ **OS 이론** 
++ **Operating System** 
     + [운영체제 기초 (OS Basic)](./operating%20system/OS%20Basic.md) 
+    + [메모리 구조와 포인터](./operating%20system/메모리%20구조와%20포인터.md)
+    + [메모리 접근 지역성과 성능 최적화](./operating%20system/메모리%20접근%20지역성과%20성능%20최적화.md)
+    + [메모리 계층 구조](./operating%20system/메모리%20계층%20구조.md)
 
 + **Linux** 
 
@@ -89,7 +83,7 @@
     + **고급 정렬:** [Quick]() / [Merge]() / [Heap]() / [Radix]()
 
 + **Search & Graph (탐색 및 그래프)**
-    + **탐색:** [Binary Search]() / [DFS & BFS](./algorithm/DFSvsBFS.md)
+    + **탐색:** [Binary Search]() / [DFS](./algorithm/dfs/README.md) / [BFS](./algorithm/bfs/README.md)
     + **최단 경로:** [Dijkstra (다익스트라)]()
 + **Advanced Logic (고급 알고리즘)**
     + **동적 계획법:** [Dynamic Programming (DP)]() / [LIS (최장 증가 수열)]()
@@ -118,7 +112,7 @@
 ### 🌐 Web & HTML
 
 + [HTML이란](./html/HTML이란.md)
-+ [HTML 문서구조]()
++ [HTML 문서구조](./html/HTML%20문서구조.md)
 
 ---
 <p align="center">
