@@ -4,10 +4,11 @@
 모든 기술 문서를 한눈에 탐색할 수 있도록 구성하였습니다.
 
 ## 👨‍💻 Information
-* **Author:** [최수호 (Hasegos)](https://github.com/Hasegos)
-* **Email:** csw020106@naver.com
-* **Blog:** [TheNight](https://bamsadness.tistory.com/)
-* **Focus:** `Java`, `Spring Boot`, `Data Structure`, `CS`, `Linux`
+
++ **Author:** [최수호 (Hasegos)](https://github.com/Hasegos)
++ **Email:** csw020106@naver.com
++ **Blog:** [TheNight](https://bamsadness.tistory.com/)
++ **Focus:** `Java`, `Spring Boot`, `Data Structure & Algorithm`, `OS / Network`, `Database`
 
 ## 🛠 Tech Stacks
 <p>
@@ -77,18 +78,9 @@
 
 ## ⚡ Algorithm
 
-+ **Sorting (정렬)**
-    + **기본 정렬:** [Bubble]() / [Selection]() / [Insertion]()
-
-    + **고급 정렬:** [Quick]() / [Merge]() / [Heap]() / [Radix]()
-
-+ **Search & Graph (탐색 및 그래프)**
-    + **탐색:** [Binary Search]() / [DFS](./algorithm/dfs/README.md) / [BFS](./algorithm/bfs/README.md)
-    + **최단 경로:** [Dijkstra (다익스트라)]()
-+ **Advanced Logic (고급 알고리즘)**
-    + **동적 계획법:** [Dynamic Programming (DP)]() / [LIS (최장 증가 수열)]()
-
-    + **기타 최적화:** [LCA (최소 공통 조상)]() / [BitMask (비트마스크)]()
++ [DFS](./algorithm/dfs/README.md) 
++ [BFS](./algorithm/bfs/README.md)
++ [recursion](./algorithm/recursion/README.md)
 
 ## 🏗️ Software Design & Language
 
@@ -101,7 +93,7 @@
 
 + [Spring 개념](./spring/스프링%20개념.md)
 + [Spring 큰 흐름](./spring/스프링%20큰%20흐름.md)
-+ [다형성의 중요성](./spring/스프링%20큰%20흐름.md)
++ [다형성의 중요성](./spring/다형성의%20중요성.md)
 
 ## 🛠️ ETC & Tools
 
